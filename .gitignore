@@ -1,3 +1,4 @@
 solutions/**/solution
-solutions/**/solution.o
-solutions/**/solution.hi
+solutions/**/*.o
+solutions/**/*.hi
+solutions/**/*.class
