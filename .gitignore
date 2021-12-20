@@ -1,4 +1,6 @@
 solutions/**/solution
 solutions/**/*.o
+solutions/**/*.cmi
+solutions/**/*.cmx
 solutions/**/*.hi
 solutions/**/*.class

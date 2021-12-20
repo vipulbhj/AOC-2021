@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
 RUN curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh | sh
+RUN curl -fsSL https://deb.nodesource.com/setup_17.x | bash -
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y \ 
@@ -8,7 +9,8 @@ RUN apt-get update && apt-get upgrade -y && \
       curl \
       ghc \
       openjdk-8-jdk \
-      nodejs
+      nodejs \
+      smlnj
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ENV PATH="${HOME}/.cargo/bin:${PATH}"
