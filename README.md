@@ -18,9 +18,9 @@ And to run, you can use the `run.sh` script.
 - [x] Day 02 - Haskell
 - [x] Day 03 - JAVA
 - [x] Day 04 - D
-- [ ] Day 05 - Python3
+- [ ] Day 05 - Go (Solved it in `C++` previously, which was basically `C` code compiled by `g++`, but I don't want to repeat `C` twice, so will solve this in `GoLang` someday. I am too lazy to parse that input.)
 - [x] Day 06 - Elixir
-- [ ] Day 07 - GO
+- [x] Day 07 - Python
 - [x] Day 08 - Javascript
 - [x] Day 09 - Stardard ML(smlnj)
 - [x] Day 10 - C
