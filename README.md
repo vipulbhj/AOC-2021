@@ -18,8 +18,8 @@ And to run, you can use the `run.sh` script.
 - [x] Day 02 - Haskell
 - [x] Day 03 - JAVA
 - [x] Day 04 - D
-- [ ] Day 05 - `undefined`
-- [ ] Day 06 - Python
+- [ ] Day 05 - Python3
+- [x] Day 06 - Elixir
 - [ ] Day 07 - GO
 - [x] Day 08 - Javascript
 - [x] Day 09 - Stardard ML(smlnj)
