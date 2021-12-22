@@ -18,27 +18,27 @@ And to run, you can use the `run.sh` script.
 - [x] Day 02 - Haskell
 - [x] Day 03 - JAVA
 - [x] Day 04 - D
-- [] Day 05 - `undefined`
-- [] Day 06 - Python
-- [] Day 07 - GO
+- [ ] Day 05 - `undefined`
+- [ ] Day 06 - Python
+- [ ] Day 07 - GO
 - [x] Day 08 - Javascript
 - [x] Day 09 - Stardard ML(smlnj)
 - [x] Day 10 - C
 - [x] Day 11 - Nim
-- [] Day 12 - Perl
-- [] Day 13 - C#
-- [] Day 14 - PHP
-- [] Day 15 - Pascal
-- [] Day 16 - Ruby
-- [] Day 17 - Scala
-- [] Day 18 - Kotlin
-- [] Day 19 - Lua
-- [] Day 20 - `undefined`
-- [] Day 21 - Racket
-- [] Day 22 - Groovy
-- [] Day 23 - Dart
-- [] Day 24 - Ada
-- [] Day 25 - `undefined`
+- [ ] Day 12 - Perl
+- [ ] Day 13 - C#
+- [ ] Day 14 - PHP
+- [ ] Day 15 - Pascal
+- [ ] Day 16 - Ruby
+- [ ] Day 17 - Scala
+- [ ] Day 18 - Kotlin
+- [ ] Day 19 - Lua
+- [ ] Day 20 - `undefined`
+- [ ] Day 21 - Racket
+- [ ] Day 22 - Groovy
+- [ ] Day 23 - Dart
+- [ ] Day 24 - Ada
+- [ ] Day 25 - `undefined`
 
 This is just a tentitive list, and may change when I actually try to solve the problem in that programming language. 
 
