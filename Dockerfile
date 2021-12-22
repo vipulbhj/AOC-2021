@@ -10,6 +10,8 @@ RUN apt-get update && apt-get upgrade -y && \
       nodejs \
       smlnj
 
+RUN curl https://dlang.org/install.sh | bash -s
+
 RUN curl -fsSL https://deb.nodesource.com/setup_17.x | sh -
 
 RUN curl https://nim-lang.org/choosenim/init.sh -sSf | bash -s -- -y
