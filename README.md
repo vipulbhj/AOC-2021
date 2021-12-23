@@ -25,7 +25,7 @@ And to run, you can use the `run.sh` script.
 - [x] Day 09 - Stardard ML(smlnj)
 - [x] Day 10 - C
 - [x] Day 11 - Nim
-- [ ] Day 12 - Perl
+- [x] Day 12 - Perl
 - [ ] Day 13 - C#
 - [ ] Day 14 - PHP
 - [ ] Day 15 - Pascal
