@@ -9,7 +9,9 @@ RUN apt-get update && apt-get upgrade -y && \
       ghc \
       openjdk-8-jdk \
       nodejs \
-      smlnj
+      smlnj \
+      perl \
+      libdata-dump-perl
 
 RUN curl https://dlang.org/install.sh | bash -s
 
