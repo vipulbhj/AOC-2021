@@ -5,3 +5,4 @@ solutions/**/*.cmi
 solutions/**/*.cmx
 solutions/**/*.hi
 solutions/**/*.class
+solutions/**/*.exe
