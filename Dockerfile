@@ -1,5 +1,8 @@
 FROM ubuntu:18.04
 
+RUN export DEBIAN_FRONTEND=noninteractive 
+RUN ln -fs /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y \ 
       build-essential \
@@ -11,7 +14,8 @@ RUN apt-get update && apt-get upgrade -y && \
       nodejs \
       smlnj \
       perl \
-      libdata-dump-perl
+      libdata-dump-perl \
+      php
 
 RUN curl https://dlang.org/install.sh | bash -s
 
