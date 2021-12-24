@@ -27,7 +27,7 @@ And to run, you can use the `run.sh` script.
 - [x] Day 11 - Nim
 - [x] Day 12 - Perl
 - [x] Day 13 - C#
-- [ ] Day 14 - PHP
+- [x] Day 14 - PHP
 - [ ] Day 15 - Pascal
 - [ ] Day 16 - Ruby
 - [ ] Day 17 - Scala
