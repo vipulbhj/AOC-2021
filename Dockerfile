@@ -15,7 +15,8 @@ RUN apt-get update && apt-get upgrade -y && \
       smlnj \
       perl \
       libdata-dump-perl \
-      php
+      php \
+      ruby-full
 
 RUN curl https://dlang.org/install.sh | bash -s
 

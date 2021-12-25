@@ -29,7 +29,7 @@ And to run, you can use the `run.sh` script.
 - [x] Day 13 - C#
 - [x] Day 14 - PHP
 - [ ] Day 15 - Pascal
-- [ ] Day 16 - Ruby
+- [x] Day 16 - Ruby
 - [ ] Day 17 - Scala
 - [ ] Day 18 - Kotlin
 - [ ] Day 19 - Lua
