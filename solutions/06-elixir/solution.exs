@@ -8,19 +8,13 @@ gen_zero = contents \
 
 defmodule Day6 do
   def produce_offspring(map, prev_gen) do
-    # IO.inspect 0
-    # IO.inspect prev_gen[0]
-    new_borns = Map.update(map, 8, prev_gen[0], fn _ -> prev_gen[0] end)
+    new_borns   = Map.update(map, 8, prev_gen[0], fn _ -> prev_gen[0] end)
     reset_cycle = Map.update(new_borns, 6, prev_gen[0], fn e_v -> e_v + prev_gen[0] end)
-    # IO.inspect reset_cycle
     reset_cycle
   end
 
   def reduce_life(map, prev_gen, key) do
-    # IO.inspect key
-    # IO.inspect prev_gen[key]
     updated_map = Map.update(map, (key - 1), prev_gen[key], fn e_v -> e_v + prev_gen[key] end)
-    # IO.inspect updated_map
     updated_map
   end
 
