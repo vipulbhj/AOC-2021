@@ -6,3 +6,4 @@ solutions/**/*.cmx
 solutions/**/*.hi
 solutions/**/*.class
 solutions/**/*.exe
+.DS_Store

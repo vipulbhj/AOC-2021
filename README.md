@@ -31,7 +31,7 @@ And to run, you can use the `run.sh` script.
 - [ ] Day 15 - Pascal
 - [x] Day 16 - Ruby
 - [x] Day 17 - Scala
-- [ ] Day 18 - Kotlin
+- [x] Day 18 - Kotlin
 - [ ] Day 19 - Lua
 - [ ] Day 20 - `undefined`
 - [ ] Day 21 - Racket
