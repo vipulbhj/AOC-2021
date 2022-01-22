@@ -11,6 +11,7 @@ RUN apt-get update && apt-get upgrade -y && \
       git \
       wget \
       curl \
+      rlwrap \
       ghc \
       openjdk-8-jdk \
       smlnj \
@@ -40,12 +41,12 @@ RUN wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && \
     apt-get update -y && apt-get install -y esl-erlang elixir && \
     rm erlang-solutions_2.0_all.deb
 
-# Mono C# Installation steps
+# Mono C# and F# Installation steps
 RUN apt install gnupg ca-certificates && \
     apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF && \
     echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | tee /etc/apt/sources.list.d/mono-official-stable.list && \
     apt-get update && \
-    apt-get install -y mono-complete
+    apt-get install -y mono-complete fsharp
 
 # Scala Installation Steps
 RUN curl -fLo cs https://git.io/coursier-cli-"$(uname | tr LD ld)" && \
@@ -58,5 +59,9 @@ ENV PATH="$PATH:/root/.local/share/coursier/bin"
 # Kotlin Installation Steps.
 RUN curl -s https://get.sdkman.io | bash
 RUN ["/bin/bash", "-c", "source $HOME/.sdkman/bin/sdkman-init.sh; sdk install kotlin"]
+
+# Installing Clojure
+RUN curl -O https://download.clojure.org/install/linux-install-1.10.3.1058.sh
+RUN ["/bin/bash", "linux-install-1.10.3.1058.sh"]
 
 WORKDIR /home

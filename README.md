@@ -32,13 +32,13 @@ And to run, you can use the `run.sh` script.
 - [x] Day 16 - Ruby
 - [x] Day 17 - Scala
 - [x] Day 18 - Kotlin
-- [ ] Day 19 - Lua
-- [ ] Day 20 - `undefined`
+- [ ] Day 19 - F#
+- [ ] Day 20 - Clojure
 - [ ] Day 21 - Racket
-- [ ] Day 22 - Groovy
-- [ ] Day 23 - Dart
-- [ ] Day 24 - Ada
-- [ ] Day 25 - `undefined`
+- [ ] Day 22 - Dart
+- [ ] Day 23 - Ada
+- [ ] Day 24 - Forth
+- [ ] Day 25 - APL
 
 This is just a tentitive list, and may change when I actually try to solve the problem in that programming language. 
 
