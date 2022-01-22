@@ -61,7 +61,6 @@ RUN curl -s https://get.sdkman.io | bash
 RUN ["/bin/bash", "-c", "source $HOME/.sdkman/bin/sdkman-init.sh; sdk install kotlin"]
 
 # Installing Clojure
-RUN curl -O https://download.clojure.org/install/linux-install-1.10.3.1058.sh
-RUN ["/bin/bash", "linux-install-1.10.3.1058.sh"]
+RUN curl https://download.clojure.org/install/linux-install-1.10.3.1058.sh | bash 
 
 WORKDIR /home
