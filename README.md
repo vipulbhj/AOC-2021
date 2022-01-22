@@ -33,7 +33,7 @@ And to run, you can use the `run.sh` script.
 - [x] Day 17 - Scala
 - [x] Day 18 - Kotlin
 - [ ] Day 19 - F#
-- [ ] Day 20 - Clojure
+- [x] Day 20 - Clojure
 - [ ] Day 21 - Racket
 - [ ] Day 22 - Dart
 - [ ] Day 23 - Ada
