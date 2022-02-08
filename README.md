@@ -32,10 +32,10 @@ And to run, you can use the `run.sh` script.
 - [x] Day 16 - Ruby
 - [x] Day 17 - Scala
 - [x] Day 18 - Kotlin
-- [ ] Day 19 - F#
+- [ ] Day 19 - 
 - [x] Day 20 - Clojure
-- [ ] Day 21 - Racket
-- [ ] Day 22 - Dart
+- [x] Day 21 - Dart
+- [x] Day 22 - F#
 - [ ] Day 23 - Ada
 - [ ] Day 24 - Forth
 - [ ] Day 25 - APL

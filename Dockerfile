@@ -8,6 +8,7 @@ RUN ln -fs /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y \ 
       build-essential \
+      software-properties-common \
       git \
       wget \
       curl \
@@ -49,7 +50,7 @@ RUN apt install gnupg ca-certificates && \
     apt-get install -y mono-complete fsharp
 
 # Scala Installation Steps
-RUN curl -fLo cs https://git.io/coursier-cli-"$(uname | tr LD ld)" && \
+RUN curl -fL https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz | gzip -d > cs && \
     chmod +x cs && \
     ./cs install cs && \
     ./cs install scala3-compiler && \
@@ -62,5 +63,15 @@ RUN ["/bin/bash", "-c", "source $HOME/.sdkman/bin/sdkman-init.sh; sdk install ko
 
 # Installing Clojure
 RUN curl https://download.clojure.org/install/linux-install-1.10.3.1058.sh | bash 
+
+# Installing Dart
+RUN apt-get update && \
+    apt-get install apt-transport-https && \
+    sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' && \
+    sh -c 'curl https://storage.googleapis.com/download.dartlang.org/linux/debian/dart_stable.list > /etc/apt/sources.list.d/dart_stable.list' && \
+    apt-get update && \
+    apt-get install dart
+
+
 
 WORKDIR /home
